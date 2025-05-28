@@ -39,6 +39,7 @@ struct ChickenRaceProgressBar: View {
                 ChickenRaceBottomButtons(showPolicy: $showPolicy, showAbout: $showAbout)
             }
         }
+        .background(Color(UIColor.chickenRaceColor(hex: "#FEC42F")))
         .sheet(isPresented: $showPolicy) {
             ChickenRacePolicyScreen()
         }

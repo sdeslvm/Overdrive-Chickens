@@ -24,7 +24,8 @@ struct ChickenRaceEntry: View {
 struct ChickenRaceRootView: View {
     var body: some View {
         ChickenRaceScreen(viewModel: .init(url: Self.chickenRaceURL))
-            .background(Color(UIColor.chickenRaceColor(hex: "#FEC42F")))
+            .background(Color(UIColor.chickenRaceColor(hex: "#000000")))
+        // #FEC42F
     }
 
     private static var chickenRaceURL: URL {
