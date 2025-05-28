@@ -79,7 +79,7 @@ struct ChickenRaceAnimatedBar: View {
                     .frame(width: geo.size.width, height: geo.size.height)
                 
                 // Worm at the end of the bar
-                Text("🪱")
+                Text("🏁")
                     .font(.system(size: geo.size.height * 0.6))
                     .offset(x: geo.size.width - geo.size.height * 0.8, y: -geo.size.height * 0.1)
                 
